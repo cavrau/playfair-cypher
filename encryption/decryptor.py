@@ -39,7 +39,6 @@ class Decryptor(BasePlayFair):
 
     def decrypt_dygraph_in_cypher(self, dygraph: str):
         assert len(dygraph) == 2
-        dygraph = dygraph.upper()
 
         new_dygraph = self.decrypt_in_column(dygraph)
         new_dygraph = self.decrypt_in_line(dygraph) if new_dygraph == '' else new_dygraph

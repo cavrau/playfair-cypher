@@ -46,7 +46,6 @@ class Encryptor(BasePlayFair):
 
     def encrypt_dygraph_in_cypher(self, dygraph: str) -> str:
         assert len(dygraph) == 2
-        dygraph = dygraph.upper()
 
         new_dygraph = self.encrypt_in_column(dygraph)
         new_dygraph = self.encrypt_in_line(dygraph) if new_dygraph == '' else new_dygraph
