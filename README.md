@@ -7,7 +7,8 @@ This is an python repo used to be part of the admission process of UFSC's LabSec
 You should use a python virtual environment.
 
 First you should download python3 with pip3.
-Then to install a virtualenvironment creating tool use the command:
+
+Then to install a virtual environment creating tool use the command:
 
 ``` bash
 pip3 install virtualenv
