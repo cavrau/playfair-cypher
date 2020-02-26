@@ -59,6 +59,3 @@ class PlayFairView():
                 print('Invalid cypher it cannot be separeted in dygraphs because its lenght is not odd.')
                 print('Press enter to continue')
                 input()
-
-
-
