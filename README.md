@@ -4,7 +4,8 @@ This is an python repo used to be part of the admission process of UFSC's LabSec
 
 ## How to install
 
-You should use a python virtual enviroment
+You should use a python virtual environment.
+
 First you should download python3 with pip
 then install use the command:
 
