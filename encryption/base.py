@@ -1,4 +1,3 @@
-import re
 import unidecode
 from typing import List
 Cypher = List[List[str]]
@@ -19,10 +18,14 @@ class BasePlayFair:
 
     def normalize_string(self, word: str) -> str:
         word = unidecode.unidecode(u'{}'.format(word)).lower().replace('j', 'i')
-        match = re.search(r'([aA-zZ])\1', word)
-        if match is not None:
-            repeated_str = match.group()
-            word = word.replace(repeated_str, f'{repeated_str[0]}x{repeated_str[1]}')
+        while True:
+            old_word = word
+            for i in range(0, len(word), 2):
+                if i + 1 < len(word) and word[i] == word[i + 1]:
+                    word = word.replace(word[i] + word[i + 1], f'{word[i]}x{word[i + 1]}')
+                    break
+            if old_word == word:
+                break
         return word
 
     def separate_in_dygraphs(self, word: str) -> List[str]:

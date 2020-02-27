@@ -33,7 +33,7 @@ class PlayFairView():
     def encrypt(self):
         while True:
             print('*'*30)
-            print('Inform the word or phrase you want to be encrypted:')
+            print('Inform the word you want to be encrypted: (It can\'t contain spaces. Eg. hello world - helloworld)')
             word = input()
             match = re.search(r'[\W, \d]', word)
             if match is None:
@@ -46,7 +46,7 @@ class PlayFairView():
     def decrypt(self):
         while True:
             print('*'*30)
-            print('Inform the word or phrase you want to decrypt:')
+            print('Inform the word you want to decrypt:')
             word = input()
             match = re.search(r'[\W, \d]', word)
             if match is not None:

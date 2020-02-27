@@ -1,0 +1,64 @@
+Tests made
+keyword: helloworld
+    Encryption:
+        sistem - qktnwg
+        potato - seqcsw
+        balloon - cbalowhs
+        pizza - qguyxc
+        horse - ewbnlv
+        playfair - qebxirfa
+        PLAYFAIR - qebxirfa
+        rex - dhll
+        brussels - cdynpooq
+        meetmeatnoon - gwvlztldnpbbqu
+    Decryption:
+        qktnwg - sistem
+        seqcsw - potato
+        cbalowhs - balxloon
+        qguyxc - pizxza
+        ewbnlv - horsex
+        qebxirfa - playfair
+        dhll - rexx
+        cdynpooq - brussels
+        gwvlztldnpbbqu - meetmeatnoonx
+keyword: paralelepipedo
+    Encryption:
+        sistem - notucu
+        potato - riqlsb
+        brianna - oldpsvqp
+        docker - obbmpl
+        obbmpl - bcckae
+        python - lvskis
+        lvskis - python
+        paralelepipedo - arlrepepifapob
+        ross - ohxrxr
+    Decryption:
+        notucu - sistem
+        riqlsb - potato
+        potato - riqlsb
+        oldpsvqp - brianxna
+        obbmpl - docker
+        bcckae - obbmpl
+        lvskis - python
+        python - lvskis
+        arlrepepifapob - paralelepipedo
+        ohxrxr - rosxsx
+keyword: keyword
+    Encryption:
+        meme - nknk
+        metallica - nkvrizflrb
+        clima - lsfqbv
+        climax - lsfqbv
+        xerox -  uwckww
+        integer - gqukndbt
+        space - mqbrwu
+        spacex - mqbrwu
+        pláýfáír - shhahrfb
+    Decryption:
+        nknk - meme
+        nkvrizflrb - metalxlica
+        lsfqbv - climax
+        uwckww - xeroxx
+        gqukndbt - integerx
+        mqbrwu - spacex
+        shhahrfb - playfair
