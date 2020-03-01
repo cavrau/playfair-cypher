@@ -16,8 +16,11 @@ class BasePlayFair:
                     coords_2 = [i, j]
         return f'{self.cypher[coords_1[0]][coords_2[1]]}{self.cypher[coords_2[0]][coords_1[1]]}'
 
+    def unidecode(self, word: str) -> str:
+        return unidecode.unidecode(u'{}'.format(word)).lower().replace('j', 'i')
+
     def normalize_string(self, word: str) -> str:
-        word = unidecode.unidecode(u'{}'.format(word)).lower().replace('j', 'i')
+        word = self.unidecode(word)
         while True:
             old_word = word
             for i in range(0, len(word), 2):

@@ -47,7 +47,7 @@ class Decryptor(BasePlayFair):
         return new_dygraph
 
     def decrypt(self, word: str):
-        assert len(word) % 2 == 0
+        word = word.lower()
         decrypted_word = ''
         for chunk in self.separate_in_dygraphs(word):
             decrypted_word += self.decrypt_dygraph_in_cypher(chunk)

@@ -10,7 +10,8 @@ keyword: helloworld
         PLAYFAIR - qebxirfa
         rex - dhll
         brussels - cdynpooq
-        meetmeatnoon - gwvlztldnpbbqu
+        meetmeatnoon - gwwpgwcqshhs
+        jingaboom - qlfqidkbwk
     Decryption:
         qktnwg - sistem
         seqcsw - potato
@@ -20,7 +21,8 @@ keyword: helloworld
         qebxirfa - playfair
         dhll - rexx
         cdynpooq - brussels
-        gwvlztldnpbbqu - meetmeatnoonx
+        gwwpgwcqshhs - meetmeatnoonx
+        qlfqidkbwk - ixingaboom
 keyword: paralelepipedo
     Encryption:
         sistem - notucu
